@@ -1,0 +1,52 @@
+
+.firstSection {
+    background: url('./bg.png');
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center;
+    height:100vh;
+  }
+
+.main-card {
+    background-color: white;
+    text-align: center;
+    /* margin: 0vh 20vw; */
+    padding: 30px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+}
+
+.pfp {
+    max-height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.iconButton
+{
+    background-color: rgb(255, 255, 255)!important; /* Green */
+    border: 1px solid rgb(24, 24, 24)!important;
+    color: rgb(29, 29, 29)!important;
+    height: 30px;
+    width: 30px;
+    padding-top:1.5px;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: 0.2s;
+    border-radius: 50%;
+
+
+}
+
+.iconButton:hover,.nav-link:hover{
+    border-color: rgb(176, 220, 255)!important;
+    color: rgb(176, 220, 255)!important;
+}
+
+
+a:hover {
+    text-decoration:none!important;
+}
